@@ -1,4 +1,4 @@
-# Revenue Leakage Detection & Analytics Dashboard
+# Business Finance & Revenue Risk Analytics Platform
 Uncover hidden revenue losses and empower data-driven decisions with an end-to-end analytics solution for e-commerce sales data.
 This production-ready project provides a robust framework to detect revenue leakages (mispricing, duplicates, inventory shrinkage, delivery issues) and delivers an interactive Streamlit dashboard for triage, drill-down, and export. Built with modularity and scalability in mind, it combines automated data ingestion, rule-based leakage detection, and rich visualizations to help business teams, analysts, and decision-makers optimize operations and recover lost revenue.
 
@@ -121,3 +121,4 @@ ML-based anomaly detection to complement rule-based checks.
 ## 👨‍💻 Author
 
 Developed by Mudit Gaur
+
