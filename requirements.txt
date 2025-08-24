@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+seaborn
+sqlalchemy
+openpyxl
+xlwings
+streamlit
+scikit-learn
+python-dotenv
+duckdb
+kaggle
