@@ -1,8 +1,8 @@
-Revenue Leakage Detection & Analytics Dashboard
+# Revenue Leakage Detection & Analytics Dashboard
 Uncover hidden revenue losses and empower data-driven decisions with an end-to-end analytics solution for e-commerce sales data.
 This production-ready project provides a robust framework to detect revenue leakages (mispricing, duplicates, inventory shrinkage, delivery issues) and delivers an interactive Streamlit dashboard for triage, drill-down, and export. Built with modularity and scalability in mind, it combines automated data ingestion, rule-based leakage detection, and rich visualizations to help business teams, analysts, and decision-makers optimize operations and recover lost revenue.
 
-✨ Features
+## ✨ Features
 
 Automated Data Ingestion: Seamlessly loads sales data from CSV files into a DuckDB database, creating a unified transactions_base view for analysis.
 Revenue Leakage Detection: Identifies inefficiencies like misapplied discounts, invalid orders, duplicate transactions, inventory shrinkage, and delayed deliveries using SQL-based rules.
@@ -17,7 +17,7 @@ Modular Architecture: Easily extend with new rules, charts, or KPIs.
 Exportable Insights: Download filtered data for business reporting or further analysis.
 
 
-📂 Project Structure
+##📂 Project Structure
 Analyst_Dashboard/
 ├── dashboard.py                    # Streamlit dashboard for visualization and triage
 ├── data_loader.py                 # Loads CSVs into DuckDB and creates transactions_base view
@@ -35,7 +35,7 @@ Analyst_Dashboard/
 └── README.md                      # Project documentation
 
 
-🚀 Getting Started
+##🚀 Getting Started
 Prerequisites
 
 Python 3.8+
@@ -70,7 +70,7 @@ Open the provided URL (e.g., http://localhost:8501) in your browser to explore t
 
 
 
-🧩 Components
+## 🧩 Components
 1. Data Loader (data_loader.py)
 
 Purpose: Reads CSV files from data/sales/ and persists them into DuckDB tables (orders, order_items, products, etc.).
@@ -92,7 +92,7 @@ Run: python leakage_rules.py
 3. Interactive Dashboard (dashboard.py)
 
 Purpose: A Streamlit-powered UI for exploring KPIs, trends, and leakage details.
-Features:
+## Features:
 📊 KPIs: Total orders, sales, average order value, flagged issues, estimated leakage.
 🚨 Leakage Analysis: Rule-specific tabs with interactive tables and export options.
 📈 Trends: Sales over time, leakage trends, category/brand performance.
@@ -102,7 +102,7 @@ Features:
 Run: streamlit run dashboard.py
 
 
-💡 Why This Project?
+## 💡 Why This Project?
 
 For Business Teams: Quickly identify and address revenue losses from pricing errors, fraud, or operational inefficiencies.
 For Data Analysts: Centralized DuckDB tables enable custom queries and deeper exploration.
@@ -110,7 +110,7 @@ For Developers: Modular design makes it easy to add new rules, visualizations, o
 For Decision Makers: Intuitive dashboards with exportable insights support strategic decision-making.
 
 
-🔮 Future Enhancements
+## 🔮 Future Enhancements
 
 Multi-page dashboard for dedicated Sales, Inventory, Delivery, and Customer views.
 Automated alerts (email/Slack) for high-impact leakage events.
@@ -118,5 +118,6 @@ Real-time data integration for live monitoring.
 ML-based anomaly detection to complement rule-based checks.
 
 
-👨‍💻 Author
+## 👨‍💻 Author
+
 Developed by Mudit Gaur
