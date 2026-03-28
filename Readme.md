@@ -42,10 +42,10 @@ Python 3.8+
 Git
 DuckDB, Streamlit, Plotly, and other dependencies (listed in requirements.txt)
 
-Installation
+##Installation
 
-Clone the repository:
-git clone https://github.com/yourusername/revenue-leakage-detection.git
+###Clone the repository:
+git clone [https://github.com/g-mudit/revenue-leakage-detection.git](https://github.com/g-mudit/Revenue-Leakage-Dashboard.git) <\br>
 cd revenue-leakage-detection
 
 
